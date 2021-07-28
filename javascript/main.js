@@ -68,7 +68,7 @@ async function getData(url) {
 
 async function createNewLi(url) {
 
-    alert('Please wait for a while(this might about 30 seconds) we shorten your link')
+    alert('Please wait for a while we shorten your link (this might take about 30 seconds)')
 
     const result = await getData(url);
 
